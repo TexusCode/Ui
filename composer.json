@@ -1,0 +1,27 @@
+{
+    "name": "texuscode/ui",
+    "description": "A set of modern UI designs and useful commands to speed up development. Easy to integrate, visually appealing, and efficient for any project.",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Texuscode\\Ui\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TexusCode",
+            "email": "texus.tj@gmail.com"
+        }
+    ],
+    "require": {},
+        "extra": {
+        "laravel": {
+            "providers": [
+                "Texuscode\\Ui\\Providers\\TexusCodeServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability" :  "dev" ,
+    "prefer-stable" :  false
+}
