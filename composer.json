@@ -2,7 +2,7 @@
     "name": "texuscode/ui",
     "description": "A set of modern UI designs and useful commands to speed up development. Easy to integrate, visually appealing, and efficient for any project.",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "Texuscode\\Ui\\": "src/"
